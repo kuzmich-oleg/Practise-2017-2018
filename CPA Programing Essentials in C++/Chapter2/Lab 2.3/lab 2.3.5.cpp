@@ -8,7 +8,7 @@ int main(void) {
 	cout << "Please enter the value > than 1 and < 50\n";
 	cin >> side;
 	
-	if (side < 1 || side => 50)
+	if (side < 1 || side >= 50)
 	{
 		cout << "wrong value";
 		return 0;
